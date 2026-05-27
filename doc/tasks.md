@@ -135,13 +135,6 @@
 
 ## 待辦
 
-### Task 2：資料層 - API Model 與 Repository
-- [ ] 建立 freezed model 對應 API JSON 結構（參照上方 API 規範）
-  - `WeatherResponse` → `Records` → `Location` → `WeatherElement` → `TimeInfo` → `Parameter`
-  - 注意：CI 的 parameter 沒有 parameterUnit，需設為 nullable
-- [ ] 建立 `WeatherRepository`，使用 Dio 串接 API（參照上方 API 規範）
-- [ ] 處理 API 錯誤回應（非 200、JSON 解析失敗、location 為空陣列）
-
 ### Task 3：Domain 層 - 天氣資料整理
 - [ ] 建立 `WeatherInfo` freezed model（UI 所需的簡化資料）
   - 城市名稱、天氣描述、天氣圖示代碼、降雨機率、最低溫、最高溫、舒適度
@@ -197,12 +190,12 @@
 
 ## 進行中
 
-### Task 1：專案基礎架構設定
-- [ ] 加入依賴（詳見套件規範）
-- [ ] API key 透過 `--dart-define=API_KEY=<key>` 帶入，程式碼中用 `String.fromEnvironment('API_KEY')` 讀取
-- [ ] 建立資料夾結構（依 feature 分層）
-- [ ] 設定 ProviderScope 於 main.dart
+### Task 2：資料層 - API Model 與 Repository
+- [ ] 建立 freezed model 對應 API JSON 結構
+- [ ] 建立 `WeatherRepository`，使用 Dio 串接 API
+- [ ] 處理 API 錯誤回應
 
 ## 已完成
 
 - [x] Flutter 專案建立
+- [x] Task 1：專案基礎架構設定
