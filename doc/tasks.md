@@ -135,13 +135,6 @@
 
 ## 待辦
 
-### Task 8：README.md 撰寫
-- [ ] 專案說明與截圖
-- [ ] 環境需求與安裝步驟
-- [ ] 架構說明（資料夾結構、設計模式）
-- [ ] 使用的第三方套件與版本
-- [ ] API key 設定方式（說明 `--dart-define` 用法，提供完整執行指令）
-
 ### Task 9：Git 初始化與提交至 GitHub
 - [ ] git init + 初始 commit
 - [ ] push 至 GitHub：git@github.com:a0973378273/HYWEB.git
@@ -151,10 +144,12 @@
 
 ## 進行中
 
-### Task 7：UI 美化與使用者體驗
-- [ ] 天氣圖示對應（根據 Wx parameterValue 天氣代碼對應 icon）
-- [ ] 鍵盤送出支援（Enter 搜尋）
-- [ ] 搜尋紀錄或城市建議列表
+### Task 8：README.md 撰寫
+- [ ] 專案說明
+- [ ] 環境需求與安裝步驟
+- [ ] 架構說明
+- [ ] 第三方套件與版本
+- [ ] API key 設定方式
 
 ## 已完成
 
@@ -165,3 +160,4 @@
 - [x] Task 4：狀態管理 - Riverpod Provider
 - [x] Task 5：UI - 搜尋頁面與四個 Widget
 - [x] Task 6：錯誤處理完善（已於 Task 2 Repository 中實作）
+- [x] Task 7：UI 美化與使用者體驗
