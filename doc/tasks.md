@@ -135,12 +135,6 @@
 
 ## 待辦
 
-### Task 3：Domain 層 - 天氣資料整理
-- [ ] 建立 `WeatherInfo` freezed model（UI 所需的簡化資料）
-  - 城市名稱、天氣描述、天氣圖示代碼、降雨機率、最低溫、最高溫、舒適度
-  - 時間區段（startTime ~ endTime）
-- [ ] 建立 mapper：WeatherResponse → List<WeatherInfo>（3 個時段）
-
 ### Task 4：狀態管理 - Riverpod Provider（禁止 hook）
 - [ ] 定義 `WeatherState` sealed class，包含四種狀態：
   - `WeatherInitial`：初始狀態
@@ -190,12 +184,12 @@
 
 ## 進行中
 
-### Task 2：資料層 - API Model 與 Repository
-- [ ] 建立 freezed model 對應 API JSON 結構
-- [ ] 建立 `WeatherRepository`，使用 Dio 串接 API
-- [ ] 處理 API 錯誤回應
+### Task 3：Domain 層 - 天氣資料整理
+- [ ] 建立 `WeatherInfo` freezed model
+- [ ] 建立 mapper：WeatherResponse → List<WeatherInfo>
 
 ## 已完成
 
 - [x] Flutter 專案建立
 - [x] Task 1：專案基礎架構設定
+- [x] Task 2：資料層 - API Model 與 Repository
