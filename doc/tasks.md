@@ -135,21 +135,12 @@
 
 ## 待辦
 
-### Task 9：Git 初始化與提交至 GitHub
-- [ ] git init + 初始 commit
-- [ ] push 至 GitHub：git@github.com:a0973378273/HYWEB.git
-- [ ] 確認鏈結可存取
 
 ---
 
 ## 進行中
 
-### Task 8：README.md 撰寫
-- [ ] 專案說明
-- [ ] 環境需求與安裝步驟
-- [ ] 架構說明
-- [ ] 第三方套件與版本
-- [ ] API key 設定方式
+（無）
 
 ## 已完成
 
@@ -161,3 +152,5 @@
 - [x] Task 5：UI - 搜尋頁面與四個 Widget
 - [x] Task 6：錯誤處理完善（已於 Task 2 Repository 中實作）
 - [x] Task 7：UI 美化與使用者體驗
+- [x] Task 8：README.md 撰寫
+- [x] Task 9：Git 初始化與提交至 GitHub
