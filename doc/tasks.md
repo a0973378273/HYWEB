@@ -135,29 +135,6 @@
 
 ## 待辦
 
-### Task 1：專案基礎架構設定
-- [ ] 加入依賴（詳見套件規範）
-- [ ] API key 透過 `--dart-define=API_KEY=<key>` 帶入，程式碼中用 `String.fromEnvironment('API_KEY')` 讀取
-- [ ] 建立資料夾結構（依 feature 分層）
-  ```
-  lib/
-  ├── app.dart
-  ├── main.dart
-  └── feature/
-      └── weather/
-          ├── data/
-          │   ├── model/
-          │   └── repository/
-          ├── domain/
-          │   ├── model/
-          │   └── mapper/
-          └── presentation/
-              ├── provider/
-              ├── screen/
-              └── widget/
-  ```
-- [ ] 設定 ProviderScope 於 main.dart
-
 ### Task 2：資料層 - API Model 與 Repository
 - [ ] 建立 freezed model 對應 API JSON 結構（參照上方 API 規範）
   - `WeatherResponse` → `Records` → `Location` → `WeatherElement` → `TimeInfo` → `Parameter`
@@ -220,7 +197,11 @@
 
 ## 進行中
 
-（無）
+### Task 1：專案基礎架構設定
+- [ ] 加入依賴（詳見套件規範）
+- [ ] API key 透過 `--dart-define=API_KEY=<key>` 帶入，程式碼中用 `String.fromEnvironment('API_KEY')` 讀取
+- [ ] 建立資料夾結構（依 feature 分層）
+- [ ] 設定 ProviderScope 於 main.dart
 
 ## 已完成
 
