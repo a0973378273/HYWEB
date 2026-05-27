@@ -135,16 +135,6 @@
 
 ## 待辦
 
-### Task 5：UI - 搜尋頁面與四個 Widget
-- [ ] 建立 `WeatherScreen`（主頁面）
-  - 搜尋輸入框（TextField）+ 確認按鈕
-  - 根據狀態切換顯示不同 Widget
-- [ ] 實作四個狀態 Widget：
-  - `WeatherInitialWidget`：提示使用者輸入城市名稱
-  - `WeatherLoadingWidget`：讀取中動畫（非 Dialog，inline 顯示）
-  - `WeatherDataWidget`：顯示天氣資料（三個時段）
-  - `WeatherErrorWidget`：顯示錯誤訊息，提供重試按鈕
-
 ### Task 6：錯誤處理完善
 - [ ] API 回傳資料格式不正確 → 顯示解析錯誤
 - [ ] 使用者輸入無效城市 → 顯示查無資料
@@ -173,10 +163,9 @@
 
 ## 進行中
 
-### Task 4：狀態管理 - Riverpod Provider（禁止 hook）
-- [ ] 定義 `WeatherState` sealed class（四種狀態）
-- [ ] 建立 `WeatherNotifier` 使用 `@riverpod` annotation
-- [ ] 使用 riverpod_generator 生成 Provider
+### Task 5：UI - 搜尋頁面與四個 Widget
+- [ ] 建立 `WeatherScreen`（主頁面）
+- [ ] 實作四個狀態 Widget
 
 ## 已完成
 
@@ -184,3 +173,4 @@
 - [x] Task 1：專案基礎架構設定
 - [x] Task 2：資料層 - API Model 與 Repository
 - [x] Task 3：Domain 層 - 天氣資料整理
+- [x] Task 4：狀態管理 - Riverpod Provider
