@@ -135,18 +135,6 @@
 
 ## 待辦
 
-### Task 6：錯誤處理完善
-- [ ] API 回傳資料格式不正確 → 顯示解析錯誤
-- [ ] 使用者輸入無效城市 → 顯示查無資料
-- [ ] 網路連線失敗 → 顯示網路錯誤
-- [ ] API key 無效或過期 → 顯示授權錯誤
-
-### Task 7：UI 美化與使用者體驗
-- [ ] 天氣圖示對應（根據 Wx parameterValue 天氣代碼對應 icon）
-- [ ] 適配 Android 與 iOS 樣式
-- [ ] 鍵盤送出支援（輸入完按 Enter 可直接搜尋）
-- [ ] 搜尋紀錄或城市建議列表
-
 ### Task 8：README.md 撰寫
 - [ ] 專案說明與截圖
 - [ ] 環境需求與安裝步驟
@@ -163,9 +151,10 @@
 
 ## 進行中
 
-### Task 5：UI - 搜尋頁面與四個 Widget
-- [ ] 建立 `WeatherScreen`（主頁面）
-- [ ] 實作四個狀態 Widget
+### Task 7：UI 美化與使用者體驗
+- [ ] 天氣圖示對應（根據 Wx parameterValue 天氣代碼對應 icon）
+- [ ] 鍵盤送出支援（Enter 搜尋）
+- [ ] 搜尋紀錄或城市建議列表
 
 ## 已完成
 
@@ -174,3 +163,5 @@
 - [x] Task 2：資料層 - API Model 與 Repository
 - [x] Task 3：Domain 層 - 天氣資料整理
 - [x] Task 4：狀態管理 - Riverpod Provider
+- [x] Task 5：UI - 搜尋頁面與四個 Widget
+- [x] Task 6：錯誤處理完善（已於 Task 2 Repository 中實作）

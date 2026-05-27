@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:maauu/feature/weather/domain/model/weather_info.dart';
+import 'package:maauu/feature/weather/presentation/widget/weather_icon.dart';
 
 class WeatherDataWidget extends StatelessWidget {
   const WeatherDataWidget({
@@ -62,7 +63,7 @@ class _WeatherCard extends StatelessWidget {
             const SizedBox(height: 12),
             Row(
               children: [
-                Icon(Icons.wb_cloudy, size: 40, color: colorScheme.primary),
+                WeatherIcon(weatherCode: info.weatherCode),
                 const SizedBox(width: 12),
                 Expanded(
                   child: Column(
