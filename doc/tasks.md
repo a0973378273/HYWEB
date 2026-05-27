@@ -135,17 +135,6 @@
 
 ## 待辦
 
-### Task 4：狀態管理 - Riverpod Provider（禁止 hook）
-- [ ] 定義 `WeatherState` sealed class，包含四種狀態：
-  - `WeatherInitial`：初始狀態
-  - `WeatherLoading`：讀取中
-  - `WeatherLoaded`：成功取得資料（包含 List<WeatherInfo>）
-  - `WeatherError`：錯誤（包含錯誤訊息）
-- [ ] 建立 `WeatherNotifier` 使用 `@riverpod` annotation（Notifier，非 hook）
-  - `searchWeather(String locationName)` 方法
-  - 輸入驗證：空字串、非有效城市名稱
-- [ ] 使用 riverpod_generator 生成 Provider
-
 ### Task 5：UI - 搜尋頁面與四個 Widget
 - [ ] 建立 `WeatherScreen`（主頁面）
   - 搜尋輸入框（TextField）+ 確認按鈕
@@ -184,12 +173,14 @@
 
 ## 進行中
 
-### Task 3：Domain 層 - 天氣資料整理
-- [ ] 建立 `WeatherInfo` freezed model
-- [ ] 建立 mapper：WeatherResponse → List<WeatherInfo>
+### Task 4：狀態管理 - Riverpod Provider（禁止 hook）
+- [ ] 定義 `WeatherState` sealed class（四種狀態）
+- [ ] 建立 `WeatherNotifier` 使用 `@riverpod` annotation
+- [ ] 使用 riverpod_generator 生成 Provider
 
 ## 已完成
 
 - [x] Flutter 專案建立
 - [x] Task 1：專案基礎架構設定
 - [x] Task 2：資料層 - API Model 與 Repository
+- [x] Task 3：Domain 層 - 天氣資料整理
